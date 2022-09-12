@@ -20,7 +20,8 @@
   "homepage": "https://github.com/adj0609/Employee_Log#readme",
   "dependencies": {
     "express": "^4.18.1",
-    "mysql2": "^2.3.3"
+    "mysql2": "^2.3.3",
+    "inquirer": "^8.0.0"
   },
   "devDependencies": {
     "jest": "^29.0.1"
