@@ -268,7 +268,7 @@ function promptDelete(deleteEmployeeChoices) {
     ])
     .then(function (answer) {
 
-      var query = `DELETE FROM employee WHERE ?`;
+      var query = `DELETE FROM employees WHERE ?`;
       // when finished prompting, insert a new item into the db with that info
       connection.query(query, { id: answer.employeeId }, function (err, res) {
         if (err) throw err;
